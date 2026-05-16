@@ -1,6 +1,6 @@
 # Smart Retrofit Door Locking Mechanism
 
-A Vite and React website for an MTE301 final project proposal. It presents the smart retrofit door lock concept, system components, project timeline, control logic, and expected outcomes.
+Portfolio website for Partha Roy Ballave's smart retrofit door lock mechanism project.
 
 ## Run Locally
 
@@ -9,10 +9,12 @@ npm install
 npm run dev
 ```
 
-## Build
+## Deploy To Vercel
 
-```bash
-npm run build
-```
+1. Push this folder to a GitHub repository.
+2. Import the repository in Vercel.
+3. Use the default Vite settings:
+   - Build command: `npm run build`
+   - Output directory: `dist`
 
-This project is ready to import into Vercel as a Vite app.
+The `vercel.json` file already sets those values for Vercel.
